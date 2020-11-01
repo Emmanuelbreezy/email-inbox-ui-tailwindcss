@@ -82,113 +82,98 @@
               </div>
           </div>
       </header>
-      <div class="flex-1 flex content-body">
-        <div class="sidebar flex-shrink-0 w-64 p-6 bg-gray-100">
+      <div class="flex-1 flex content-body overflow-hidden">
+        <div class="sidebar flex-shrink-0 w-64 p-6 bg-white  overflow-y-auto">
            <nav>
                <h2 class="text-xs font-semibold text-gray-600 uppercase tracking-wide ">Mailboxes</h2>
                <div class="mt-3">
                    <a href="" class="flex items-center justify-between text-sm font-medium 
-                   bg-gray-200 rounded-full -mx-3 px-3 py-2">
+                   bg-gray-300 rounded-full -mx-3 px-3 py-2">
                        <span class="inline-flex">
-                            <svg class="w-5 h-5 stroke-current text-gray-700"
-                            viewBox="0 0 20 20" fill="none">
-                            <path d="M19.253,9.542c-0.388-0.416-2.265-2.271-3.122-3.118C15.868,6.165,15.492,6,15.098,6H4.902
-                                c-0.394,0-0.77,0.165-1.033,0.424C3.011,7.271,1.135,9.125,0.747,9.542c-0.485,0.521-0.723,0.902-0.624,1.449
-                                s0.466,2.654,0.556,3.074C0.767,14.484,1.363,15,1.919,15h16.162c0.556,0,1.152-0.516,1.241-0.935
-                                c0.089-0.42,0.457-2.527,0.556-3.074S19.739,10.062,19.253,9.542z M14.014,10.003c-0.101,0-0.193,0.052-0.238,0.133L12.966,12H7.034
-                                l-0.809-1.864c-0.045-0.081-0.137-0.133-0.238-0.133H2.473L4.495,8h11.01l2.023,2.003H14.014z"/>
-                            </svg>
-                            <span class="text-gray-900 ml-2 ">
+                            <svg class="w-5 h-5 fill-current text-gray-700"
+                            viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M4.51653902,11 L10,11 L10,13 L14,13 L14,11 L19.4839973,11 L17.1106841,5.45729333 C16.9986635,5.23944262 16.8952849,5.08654336 16.8117527,4.99992782 L7.17592076,4.99623293 C7.09869779,5.07946042 7.00332603,5.2252937 6.91914503,5.3939193 L4.51653902,11 Z M20,13 L16,13 C16,14.1045695 15.1045695,15 14,15 L10,15 C8.8954305,15 8,14.1045695 8,13 L4,13 L4,19 L20,19 L20,13 Z M22,19 C22,20.1045695 21.1045695,21 20,21 L4,21 C2.8954305,21 2,20.1045695 2,19 L2,11.7947423 L2.08085497,11.6060807 L5.10236458,4.55926124 C5.55302653,3.64141565 6.12143587,3.07300632 7,3 L17,3 L17.1308208,3.00859397 C17.8836715,3.10793627 18.4350886,3.65935343 18.919145,4.6060807 L22,11.7947423 L22,19 Z"/>
+                              </svg>
+                              
+                            <span class="text-gray-900 ml-3 ">
                                 Inbox
                             </span>
                         </span>
-                        <span class="inline-block px-4 py-1 leading-none text-xs font-semibold  text-gray-700 bg-gray-400 rounded-full">
+                        <span class="inline-block px-4 py-1 leading-none text-xs 
+                        font-semibold  text-gray-700 bg-gray-200 rounded-full">
                             6
                         </span>
                    </a>
                    <a href="" class="flex items-center justify-between text-sm font-medium 
-                   hover:bg-gray-200 rounded-full -mx-3 px-3 py-2 mt-4">
+                   hover:bg-gray-300 rounded-full -mx-3 px-3 py-2 mt-4">
                        <span class="inline-flex">
-                            <svg class="w-5 h-5 stroke-current text-gray-500"
-                                    viewBox="0 0 20 20" fill="none">
-                                <path d="M18.926,5.584c-9.339,13.568-6.142-0.26-14.037,6.357L6.684,19H4.665L1,4.59l1.85-0.664
-                                    c8.849-6.471,4.228,5.82,15.637,1.254C18.851,5.033,19.142,5.27,18.926,5.584z"/>
-                            </svg>
-
-                            <span class="text-gray-700 ml-2 ">
+                            
+                            <svg class="w-5 h-5 fill-current text-gray-500"
+                            viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5,21 L5,1 L7,1 L7,2 L21.1247446,2 L18.1259893,7.99991055 L21.126034,14 L7,14 L7,21 L8,21 L8,23 L4,23 L4,21 L5,21 Z M7,12 L17.889966,12 L15.8900107,8.00008945 L17.8892554,4 L7,4 L7,12 Z"/>
+                              </svg>
+                            <span class="text-gray-700 ml-3 ">
                                 Flagged
                             </span>
                         </span>
                     </a>
                     <a href="" class="flex items-center justify-between text-sm font-medium 
-                    hover:bg-gray-200 rounded-full -mx-3 px-3 py-2 mt-4">
+                    hover:bg-gray-300 rounded-full -mx-3 px-3 py-2 mt-4">
                     <span class="inline-flex">
-                        <svg fill="none" viewBox="0 0 20 20" class="w-5 h-5 stroke-current text-gray-500">
-                            <path d="M18.174,1.826c-1.102-1.102-2.082-0.777-2.082-0.777L7.453,9.681L6,14l4.317-1.454l8.634-8.638
-                            C18.951,3.908,19.275,2.928,18.174,1.826z M10.605,11.605l-0.471,0.47l-1.473,0.5c-0.104-0.24-0.234-0.477-0.498-0.74
-                            c-0.264-0.264-0.5-0.394-0.74-0.498l0.5-1.473l0.471-0.47c0,0,0.776-0.089,1.537,0.673C10.693,10.828,10.605,11.605,10.605,11.605z
-                            M16,17H3V4h5l2-2H3C1.9,2,1,2.9,1,4v13c0,1.1,0.9,2,2,2h13c1.1,0,2-0.9,2-2v-7l-2,2V17z"/>
-                        </svg>
-                        <span class="text-gray-700 ml-2 ">
+                        <svg  viewBox="0 0 24 24" class="w-5 h-5 fill-current text-gray-500">
+                            <path fill-rule="evenodd" d="M14.8024118,6.44526791 L8.69610276,12.549589 C8.29095108,12.9079238 8.04030835,13.4092335 8,13.8678295 L8,16.0029438 L10.0639829,16.004826 C10.5982069,15.9670062 11.0954869,15.7183782 11.4947932,15.2616227 L17.556693,9.19972295 L14.8024118,6.44526791 Z M16.2168556,5.0312846 L18.9709065,7.78550938 L19.8647941,6.89162181 C19.9513987,6.80501747 20.0000526,6.68755666 20.0000526,6.56507948 C20.0000526,6.4426023 19.9513987,6.32514149 19.8647932,6.23853626 L17.7611243,4.13485646 C17.6754884,4.04854589 17.5589355,4 17.43735,4 C17.3157645,4 17.1992116,4.04854589 17.1135757,4.13485646 L16.2168556,5.0312846 Z M22,13 L22,20 C22,21.1045695 21.1045695,22 20,22 L4,22 C2.8954305,22 2,21.1045695 2,20 L2,4 C2,2.8954305 2.8954305,2 4,2 L11,2 L11,4 L4,4 L4,20 L20,20 L20,13 L22,13 Z M17.43735,2 C18.0920882,2 18.7197259,2.26141978 19.1781068,2.7234227 L21.2790059,4.82432181 C21.7406843,5.28599904 22.0000526,5.91216845 22.0000526,6.56507948 C22.0000526,7.21799052 21.7406843,7.84415992 21.2790068,8.30583626 L12.9575072,16.6237545 C12.2590245,17.4294925 11.2689,17.9245308 10.1346,18.0023295 L6,18.0023295 L6,17.0023295 L6.00324765,13.7873015 C6.08843822,12.7328366 6.57866679,11.7523321 7.32649633,11.0934196 L15.6953877,2.72462818 C16.1563921,2.2608295 16.7833514,2 17.43735,2 Z"/>
+                          </svg>
+                          
+                        <span class="text-gray-700 ml-3 ">
                             Drafts
                         </span>
                     </span>
                     <span class="inline-block px-4 py-1 leading-none text-xs font-semibold  
-                    text-gray-700 bg-gray-300 rounded-full">
+                    text-gray-700 bg-gray-200 rounded-full">
                         2
                     </span>
                 </a>
 
                    <a href="" class="flex items-center justify-between text-sm font-medium 
-                   hover:bg-gray-200 rounded-full -mx-3 px-3 py-2 mt-4">
+                   hover:bg-gray-300 rounded-full -mx-3 px-3 py-2 mt-4">
                        <span class="inline-flex">
-                           <svg fill="none" viewBox="0 0 20 20" class="w-5 h-5 stroke-current text-gray-500"
-                           >
-                            <path d="M7.725,2.146c-1.016,0.756-1.289,1.953-1.239,2.59C6.55,5.515,6.708,6.529,6.708,6.529
-                                s-0.313,0.17-0.313,0.854C6.504,9.1,7.078,8.359,7.196,9.112c0.284,1.814,0.933,1.491,0.933,2.481c0,1.649-0.68,2.42-2.803,3.334
-                                C3.196,15.845,1,17,1,19v1h18v-1c0-2-2.197-3.155-4.328-4.072c-2.123-0.914-2.801-1.684-2.801-3.334c0-0.99,0.647-0.667,0.932-2.481
-                                c0.119-0.753,0.692-0.012,0.803-1.729c0-0.684-0.314-0.854-0.314-0.854s0.158-1.014,0.221-1.793c0.065-0.817-0.398-2.561-2.3-3.096
-                                c-0.333-0.34-0.558-0.881,0.466-1.424C9.439,0.112,8.918,1.284,7.725,2.146z"/>
-                            </svg>
-                            <span class="text-gray-700 ml-2 ">
+                            <svg class="w-5 h-5 fill-current text-gray-500" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M6.03531778,18.739764 C7.62329979,20.146176 9.71193925,21 12,21 C14.2880608,21 16.3767002,20.146176 17.9646822,18.739764 C17.6719994,17.687349 15.5693823,17 12,17 C8.43061774,17 6.32800065,17.687349 6.03531778,18.739764 Z M4.60050358,17.1246475 C5.72595131,15.638064 8.37060189,15 12,15 C15.6293981,15 18.2740487,15.638064 19.3994964,17.1246475 C20.4086179,15.6703183 21,13.9042215 21,12 C21,7.02943725 16.9705627,3 12,3 C7.02943725,3 3,7.02943725 3,12 C3,13.9042215 3.59138213,15.6703183 4.60050358,17.1246475 Z M12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 Z M8,10 C8,7.75575936 9.57909957,6 12,6 C14.4141948,6 16,7.92157821 16,10.2 C16,13.479614 14.2180861,15 12,15 C9.76086382,15 8,13.4273743 8,10 Z M10,10 C10,12.2692568 10.8182108,13 12,13 C13.1777063,13 14,12.2983927 14,10.2 C14,8.95041736 13.2156568,8 12,8 C10.7337387,8 10,8.81582479 10,10 Z"/>
+                              </svg>
+                              
+                            <span class="text-gray-700 ml-3 ">
                                 Assigned
                             </span>
                         </span>
                         <span class="inline-block px-4 py-1 leading-none text-xs font-semibold 
-                         text-gray-700 bg-gray-300 rounded-full">
+                         text-gray-700 bg-gray-200 rounded-full">
                             1
                         </span>
                    </a>
                    
 
                    <a href="" class="flex items-center justify-between text-sm font-medium 
-                   hover:bg-gray-200 rounded-full -mx-3 px-3 py-2 mt-4">
+                   hover:bg-gray-300 rounded-full -mx-3 px-3 py-2 mt-4">
                        <span class="inline-flex">
-                                <svg fill="none" viewBox="0 0 20 20" class="w-5 h-5 stroke-current
-                                 text-gray-500"
-                                    >
-                                    <path d="M8.294,16.998c-0.435,0-0.847-0.203-1.111-0.553L3.61,11.724c-0.465-0.613-0.344-1.486,0.27-1.951
-                                    c0.615-0.467,1.488-0.344,1.953,0.27l2.351,3.104l5.911-9.492c0.407-0.652,1.267-0.852,1.921-0.445
-                                    c0.653,0.406,0.854,1.266,0.446,1.92L9.478,16.34c-0.242,0.391-0.661,0.635-1.12,0.656C8.336,16.998,8.316,16.998,8.294,16.998z"/>
-                                </svg>
-                            <span class="text-gray-700 ml-2 ">
+                                <svg class="w-5 h-5 fill-current
+                                text-gray-500" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 Z M12,21 C16.9705627,21 21,16.9705627 21,12 C21,7.02943725 16.9705627,3 12,3 C7.02943725,3 3,7.02943725 3,12 C3,16.9705627 7.02943725,21 12,21 Z M10,13.5857864 L15.2928932,8.29289322 L16.7071068,9.70710678 L10,16.4142136 L6.29289322,12.7071068 L7.70710678,11.2928932 L10,13.5857864 Z"/>
+                                  </svg>
+                                  
+                            <span class="text-gray-700 ml-3 ">
                                 Closed
                             </span>
                         </span>
                    </a>
 
                    <a href="" class="flex items-center justify-between text-sm font-medium 
-                   hover:bg-gray-200 rounded-full -mx-3 px-3 py-2 mt-4">
+                   hover:bg-gray-300 rounded-full -mx-3 px-3 py-2 mt-4">
                        <span class="inline-flex">
-                         <svg fill="none" viewBox="0 0 20 20" class="w-5 h-5 stroke-current text-gray-500">
-                            <path d="M3.389,7.113L4.49,18.021C4.551,18.482,6.777,19.998,10,20c3.225-0.002,5.451-1.518,5.511-1.979
-                                l1.102-10.908C14.929,8.055,12.412,8.5,10,8.5C7.59,8.5,5.072,8.055,3.389,7.113z M13.168,1.51l-0.859-0.951
-                                C11.977,0.086,11.617,0,10.916,0H9.085c-0.7,0-1.061,0.086-1.392,0.559L6.834,1.51C4.264,1.959,2.4,3.15,2.4,4.029v0.17
-                                C2.4,5.746,5.803,7,10,7c4.198,0,7.601-1.254,7.601-2.801v-0.17C17.601,3.15,15.738,1.959,13.168,1.51z M12.07,4.34L11,3H9
-                                L7.932,4.34h-1.7c0,0,1.862-2.221,2.111-2.522C8.533,1.588,8.727,1.5,8.979,1.5h2.043c0.253,0,0.447,0.088,0.637,0.318
-                                C11.907,2.119,13.77,4.34,13.77,4.34H12.07z"/>
-                           </svg>                         
-                            <span class="text-gray-700 ml-2 ">
+                           <svg viewBox="0 0 24 24" class="w-5 h-5 fill-current text-gray-500">
+                            <path fill-rule="evenodd" d="M7,4 L7,3 C7,1.8954305 7.8954305,1 9,1 L15,1 C16.1045695,1 17,1.8954305 17,3 L17,4 L20,4 C21.1045695,4 22,4.8954305 22,6 L22,8 C22,9.1045695 21.1045695,10 20,10 L19.9198662,10 L19,21 C19,22.1045695 18.1045695,23 17,23 L7,23 C5.8954305,23 5,22.1045695 5.00345424,21.0830455 L4.07986712,10 L4,10 C2.8954305,10 2,9.1045695 2,8 L2,6 C2,4.8954305 2.8954305,4 4,4 L7,4 Z M7,6 L4,6 L4,8 L20,8 L20,6 L17,6 L7,6 Z M6.08648886,10 L7,21 L17,21 L17.0034542,20.9169545 L17.9132005,10 L6.08648886,10 Z M15,4 L15,3 L9,3 L9,4 L15,4 Z"/>
+                          </svg>
+                                                 
+                            <span class="text-gray-700 ml-3 ">
                                 Junk
                             </span>
                         </span>
@@ -203,12 +188,16 @@
                </div>
            </nav>
         </div>
-        <main class="flex-1 flex bg-gray-200 ">
-          <div class="w-full max-w-xs flex-grow border-l border-r">
-              <div class="px-4 py-2 flex items-center justify-between">
-                  <button class="flex focus:outline-none items-center text-xs font-semibold text-gray-600">
+
+
+
+
+        <main class="flex-1 flex bg-gray-100">
+          <div class="relative flex flex-col w-full max-w-xs flex-grow border-l border-r bg-gray-100">
+              <div class="flex-shrink-0 px-4 py-2 flex items-center justify-between">
+                  <button class="flex  focus:outline-none items-center text-xs font-semibold text-gray-600">
                       Sorted by Date
-                      <svg class="w-5 h-5 ml-auto  stroke-current text-gray-500" viewBox="0 0 20 20" fill="none">
+                      <svg class="w-5 h-5 ml-1  stroke-current text-gray-500" viewBox="0 0 20 20" fill="none">
                         <path  d="M13.418,7.859c0.271-0.268,0.709-0.268,0.978,0c0.27,0.268,0.272,0.701,0,0.969l-3.908,3.83
                             c-0.27,0.268-0.707,0.268-0.979,0l-3.908-3.83c-0.27-0.267-0.27-0.701,0-0.969c0.271-0.268,0.709-0.268,0.978,0L10,11L13.418,7.859z
                             "/>
@@ -223,23 +212,173 @@
                    l-3.988-4.025C16.012,10.443,16.012,13.294,16.012,13.294z"/>
                </svg>
               </div>
-              <div>
-                  <a href="" class="block px-6 bg-white">
-                     <div>
-                         <span class="text-sm font-semibold text-gray-900">Gloria Roberston</span>
-                         <span class="text-sm text-gray-600">2 days ago</span>
-                     </div>
-                  </a>
-              </div>
-          </div>
-          <div class="flex-1 bg-red-400">
+              <div class="flex-1 overflow-y-auto shadow-inner">
+                  <div>
+                    <a href="" class="block px-5 pt-3 pb-4 bg-white" >
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-gray-900">Issuz Roberston</span>
+                            <span class="text-sm text-gray-600">2 min ago</span>
+                        </div>
+                        <p class="text-sm text-gray-900">Refund</p>
+                        <p class="mt-1 text-sm text-gray-600 truncate">Lorem ipsum dolor sit 
+                            amet dignissimos accusamus.</p>
+                     </a>
+                  </div>
 
+                  <div class="mt-3">
+                    <h2 class="text-sm font-semibold mb-2 px-5">Yesterday</h2>
+                      <a href="" class="block px-5 pt-3 pb-4 bg-white border-l-2 border-blue-500" >
+                         <div class="flex items-center justify-between">
+                             <span class="text-sm font-semibold text-gray-900">Gloria Roberston</span>
+                             <span class="text-sm text-blue-600 font-semibold">1 day ago</span>
+                         </div>
+                         <p class="text-sm text-blue-500 font-bold">Refund</p>
+                         <p class="mt-2 text-sm text-gray-600">Lorem ipsum dolor sit amet dignissimos accusamus, fugiat explicabo totam.</p>
+                      </a>
+                      <a href="" class="block px-5 pt-3 pb-4 border-t bg-yellow-100">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-gray-900">Gloria Roberston</span>
+                            <span class="text-sm text-gray-600">2 days ago</span>
+                        </div>
+                        <p class="text-sm text-gray-900">Refund</p>
+                        <p class="mt-2 text-sm text-gray-600">Lorem ipsum dolor sit amet dignissimos accusamus, fugiat explicabo totam.</p>
+                     </a>
+                     <a href="" class="block px-5 pt-3 pb-4 bg-white border-t">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm font-semibold text-gray-900">Gloria Roberston</span>
+                            <span class="text-sm text-gray-600">2 days ago</span>
+                        </div>
+                        <p class="text-sm text-gray-900">Refund</p>
+                        <p class="mt-2 text-sm text-gray-600">Lorem ipsum dolor sit amet dignissimos accusamus, fugiat explicabo totam.</p>
+                    </a>
+                  </div>
+
+                  <div class="mt-3">
+                      <h2 class="text-sm font-semibold mb-2 px-5">This Week</h2>
+                      <a href="" class="block px-5 pt-3 pb-4 bg-white border-l-2 border-red-500">
+                          <div class="flex items-center justify-between">
+                              <span class="text-sm font-semibold text-gray-900">Gloria Roberston</span>
+                              <span class="text-sm text-gray-600">2 days ago</span>
+                          </div>
+                          <p class="text-sm text-gray-900">Refund</p>
+                          <p class="mt-2 text-sm text-gray-600">Lorem ipsum dolor sit amet dignissimos accusamus, fugiat explicabo totam.</p>
+                      </a>
+                      <a href="" class="block px-5 pt-3 pb-4 bg-white border-t">
+                          <div class="flex items-center justify-between">
+                              <span class="text-sm font-semibold text-gray-900">Gloria Roberston</span>
+                              <span class="text-sm text-gray-600">2 days ago</span>
+                          </div>
+                          <p class="text-sm text-gray-900">Refund</p>
+                          <p class="mt-2 text-sm text-gray-600">Lorem ipsum dolor sit amet dignissimos accusamus, fugiat explicabo totam.</p>
+                      </a>
+                  </div>
+            </div>
+          </div>
+
+          <!-----------------------------------SECTION 2 MESSAGE DETAIL------------------------------------------------->
+          <div class="flex-1 flex flex-col w-0">
+            <div class="relative shadow-md">
+                <div class="flex items-center justify-between bg-gray-100 px-5 py-4 border-b">
+                    <div class="flex items-center justify-self-auto">
+                        <button class="focus:outline-none"><svg class="w-6 h-6 fill-current text-gray-600" fill="none">
+                            <path fill-rule="" d="M5.414 10H16a6 6 0 110 12h-2.5v-2H16a4 4 0 100-8H5.414l4.293 4.293-1.414 1.414L1.586 11l6.707-6.707 1.414 1.414L5.414 10z"/>
+                        </svg></button>
+                        <button class="ml-6 focus:outline-none"> <svg class="w-6 h-6 fill-current text-gray-600" fill="none" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M6.535 5H21a2 2 0 012 2v10a2 2 0 01-2 2H6.535a2 2 0 01-1.664-.89l-3.703-5.555a1 1 0 010-1.11L4.87 5.891A2 2 0 016.535 5zm-3.333 7l3.333 5H21V7H6.535l-3.333 5zM7 13a1 1 0 110-2 1 1 0 010 2z"/>
+                        </svg></button>
+                        <button class="ml-6 focus:outline-none" ><svg class="w-6 h-6 fill-current text-gray-600" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M11,12 L11,9 L13,9 L13,12 L16,12 L16,14 L13,14 L13,17 L11,17 L11,14 L8,14 L8,12 L11,12 Z M21,5 C22.1045695,5 23,5.8954305 23,7 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,5 C1,3.8954305 1.8954305,3 3,3 L9,3 C10.1200023,3 10.832939,3.47545118 11.5489764,4.37885309 C11.5967547,4.43913352 11.8100999,4.71588275 11.8624831,4.78081945 C12.019726,4.97574495 12.0517795,4.99972956 12.0017863,5 L21,5 Z M21,19 L21,7 L11.994646,6.99998567 C11.2764915,6.99614058 10.8086916,6.65990923 10.3058322,6.03654146 C10.2364281,5.95050497 10.0158737,5.66440398 9.98159778,5.62115916 C9.60702158,5.14856811 9.38424442,5 9,5 L3,5 L3,19 L21,19 Z"/>
+                        </svg></button>
+
+                        <button class="ml-6 focus:outline-none"><svg class="w-6 h-6 fill-current text-gray-600" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M6.03531778,18.739764 C7.62329979,20.146176 9.71193925,21 12,21 C14.2880608,21 16.3767002,20.146176 17.9646822,18.739764 C17.6719994,17.687349 15.5693823,17 12,17 C8.43061774,17 6.32800065,17.687349 6.03531778,18.739764 Z M4.60050358,17.1246475 C5.72595131,15.638064 8.37060189,15 12,15 C15.6293981,15 18.2740487,15.638064 19.3994964,17.1246475 C20.4086179,15.6703183 21,13.9042215 21,12 C21,7.02943725 16.9705627,3 12,3 C7.02943725,3 3,7.02943725 3,12 C3,13.9042215 3.59138213,15.6703183 4.60050358,17.1246475 Z M12,23 C5.92486775,23 1,18.0751322 1,12 C1,5.92486775 5.92486775,1 12,1 C18.0751322,1 23,5.92486775 23,12 C23,18.0751322 18.0751322,23 12,23 Z M8,10 C8,7.75575936 9.57909957,6 12,6 C14.4141948,6 16,7.92157821 16,10.2 C16,13.479614 14.2180861,15 12,15 C9.76086382,15 8,13.4273743 8,10 Z M10,10 C10,12.2692568 10.8182108,13 12,13 C13.1777063,13 14,12.2983927 14,10.2 C14,8.95041736 13.2156568,8 12,8 C10.7337387,8 10,8.81582479 10,10 Z"/>
+                        </svg></button>
+
+                        <button class="ml-6 focus:outline-none"><svg class="w-6 h-6 fill-current text-gray-600" viewBox="0 0 24 24">
+                            <path fill-rule="evenodd" d="M5,14 C3.8954305,14 3,13.1045695 3,12 C3,10.8954305 3.8954305,10 5,10 C6.1045695,10 7,10.8954305 7,12 C7,13.1045695 6.1045695,14 5,14 Z M12,14 C10.8954305,14 10,13.1045695 10,12 C10,10.8954305 10.8954305,10 12,10 C13.1045695,10 14,10.8954305 14,12 C14,13.1045695 13.1045695,14 12,14 Z M19,14 C17.8954305,14 17,13.1045695 17,12 C17,10.8954305 17.8954305,10 19,10 C20.1045695,10 21,10.8954305 21,12 C21,13.1045695 20.1045695,14 19,14 Z"/>
+                          </svg></button>
+                    </div>
+                    <div class="flex items-center">
+                        <button class="focus:outline-none"><svg class="w-6 h-6 fill-current text-gray-600" viewBox="0 0 24 24">
+                            <polygon fill-rule="evenodd" points="19.293 7.293 20.707 8.707 12 17.414 3.293 8.707 4.707 7.293 12 14.586"/>
+                        </svg></button>
+
+                        <button class="ml-4 focus:outline-none"><svg class="w-6 h-6 fill-current text-gray-600" viewBox="0 0 24 24">
+                            <polygon fill-rule="evenodd" points="12 9.414 4.707 16.707 3.293 15.293 12 6.586 20.707 15.293 19.293 16.707"/>
+                        </svg>
+                    </button>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center justify-between bg-white px-5 py-4">
+                        <h3 class="text-xl text-gray-900 truncate">Re: Student discount this is really long it has to wrap and look stupid</h3>
+                        <div class="ml-4 flex-shrink-0">
+                            <span>#1428</span>
+                            <span class="text-sm ml-3 font-semibold text-green-900 bg-green-200 rounded-full 
+                            px-2 py-1">Active</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex-1 p-2 overflow-y-auto">
+                <article class="px-10 pt-6 pb-8 bg-white rounded-lg shadow">
+                    <div class="flex items-center justify-between">
+                        <p class="text-lg font-semibold">
+                            <span class="text-gray-900">Joe Armstrong</span>
+                            <span class="text-gray-600">wrote</span>
+                        </p>
+                        <div class="flex items-center">
+                            <span class="text-sm text-gray-600">Yesterday at 7:24</span>
+                            <img class="ml-5 w-8 h-8 rounded-full object-cover" src="./assets/photo-1600268866480-3bf595122fc9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-6 text-gray-800 text-sm"> 
+                        <p>Thanks so much!! Can't wait to try it out :)</p>
+                    </div>
+                </article>
+                <article class="px-10 pt-6 pb-8 bg-white rounded-lg shadow mt-2">
+                    <div class="flex items-center justify-between">
+                        <p class="text-lg font-semibold">
+                            <span class="text-gray-900">Bonnio Plus</span>
+                            <span class="text-gray-600">replies</span>
+                        </p>
+                        <div class="flex items-center">
+                            <span class="text-sm text-gray-600">Yesterday at 7:24</span>
+                            <img class="ml-5 w-8 h-8 rounded-full object-cover" src="./assets/photo-1600268866480-3bf595122fc9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-6 text-gray-800 text-sm"> 
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Ullam similique qui id consequuntur illum obcaecati adipisci! Vitae, eius molestiae. Aut eaque provident aspernatur! 
+                        </p>
+                        <br />
+                        <p>Pariatur sequi officia, ipsam commodi est similique! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptatum temporibus, dolorum impedit vel commodi</p>
+                        <br />
+                        <p class="font-semibold">Bonnie Plus</p>
+                        <p>Customer Service</p>
+                    </div>
+                </article>
+                <article class="px-10 pt-6 pb-8 bg-white rounded-lg shadow mt-2">
+                    <div class="flex items-center justify-between">
+                        <p class="text-lg font-semibold">
+                            <span class="text-gray-900">Joe Armstrong</span>
+                            <span class="text-gray-600">wrote</span>
+                        </p>
+                        <div class="flex items-center">
+                            <span class="text-sm text-gray-600">Yesterday at 7:24</span>
+                            <img class="ml-5 w-8 h-8 rounded-full object-cover" src="./assets/photo-1600268866480-3bf595122fc9.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="mt-6 text-gray-800 text-sm"> 
+                        <p>Thanks so much!! Can't wait to try it out :)</p>
+                    </div>
+                </article>
+            </div>
           </div>
         </main>
-        <div></div>
       </div>
-
-
    </div> 
 </body>
 </html>
